@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Rhyme Generator</title>
   </head>
   <body>
@@ -12,7 +13,7 @@
         <h1>AI Rhyme Generator</h1>
       </header>
       <main>
-        <form>
+        <form id="rhyme-generator-form">
           <input
             type="text"
             placeholder="Enter the Rhyme topic"
@@ -23,12 +24,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="rhyme">
-          Tell me not, in mournful numbers <br />
-          Life is but an empty dream! <br />
-          For the soul is dead that slumbers <br />
-          And things are not what they seem
-        </div>
+        <div class="rhyme" id="rhyme"></div>
       </main>
       <footer>
         This AI Project was coded by
