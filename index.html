@@ -14,19 +14,22 @@
         <h1>AI Rhyme Generator</h1>
       </header>
       <main>
-        <form id="rhyme-generator-form">
-          <input
-            type="text"
-            placeholder="Enter the Rhyme topic"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="rhyme" id="rhyme"></div>
+        <div class="form-container">
+          <form id="rhyme-generator-form">
+            <input
+              type="text"
+              placeholder="Type the word to generate the Rhyme"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e: Sky, Coffee or Japan</div>
+        </div>
+        <div class="rhyme hidden" id="rhyme"></div>
       </main>
       <footer>
         This AI Project was coded by
